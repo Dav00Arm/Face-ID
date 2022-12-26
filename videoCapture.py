@@ -24,7 +24,7 @@ class VideoCaptureThreading:
         if fps:
             self.cap.set(cv2.CAP_PROP_FPS, fps)
 
-
+ 
     def set(self, var1, var2):
         self.cap.set(var1, var2)
 
